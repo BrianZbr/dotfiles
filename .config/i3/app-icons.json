@@ -1,0 +1,16 @@
+{
+    "firefox": "firefox",
+    "chromium-browser": "chrome",
+    "Chromium": "chrome",
+    "google-chrome": "chrome",
+    "x-terminal-emulator": "terminal",
+    "xterm": "terminal",
+    "thunderbird": "envelope",
+    "emacs": "etsy",
+    "jetbrains-py": "product-hunt",
+    "thunar": "folder-open",
+    "clementine": "music",
+    "vlc": "play",
+    "signal": "comment",
+    "_no_match": "question"
+}
