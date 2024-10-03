@@ -3,6 +3,7 @@ xterm*faceSize: 10
 
 xterm*thickness: 4
 xterm*scrollBar_right: true
+xterm*selectToClipboard: true
 
 !
 ! effects
