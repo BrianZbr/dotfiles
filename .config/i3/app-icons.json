@@ -12,5 +12,6 @@
     "clementine": "music",
     "vlc": "play",
     "signal": "comment",
+    "vscodium": "code-branch",
     "_no_match": "question"
 }
