@@ -23,7 +23,7 @@ order += "memory 0"
 order += "tztime local"
 
 tztime local {
-        format = "%Y-%m-%d %l:%M:%S %p"
+        format = "%a %m-%d %l:%M:%S %p"
         timezone = "America/New_York"
 }
 
