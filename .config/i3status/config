@@ -34,12 +34,14 @@ cpu_usage {
 }
 
 memory {
-        format="🁢 %used/%total"
+        format = "🁢 %used/%total"
 }
 
 tztime local {
-        format = "%a %m-%d %l:%M:%S %p"
+        format = "%a %m-%d    %l:%M:%S %p"
         timezone = "America/New_York"
+        align = "right"
+        min_width = 200
 }
 
 
