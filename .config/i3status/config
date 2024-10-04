@@ -21,11 +21,6 @@ order += "cpu_usage 0"
 order += "memory 0"
 order += "tztime local"
 
-tztime local {
-        format = "%a %m-%d %l:%M:%S %p"
-        timezone = "America/New_York"
-}
-
 load {
         format = "⏲: %1min"
 }
@@ -40,6 +35,11 @@ cpu_usage {
 
 memory {
         format="🁢 %used/%total"
+}
+
+tztime local {
+        format = "%a %m-%d %l:%M:%S %p"
+        timezone = "America/New_York"
 }
 
 
