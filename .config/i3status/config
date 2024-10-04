@@ -16,7 +16,6 @@ general {
 }
 
 order += "disk /"
-order += "disk /home"
 order += "load"
 order += "cpu_usage 0"
 order += "memory 0"
@@ -31,12 +30,7 @@ load {
         format = "⏲: %1min"
 }
 
-
 disk "/" {
-        format = "⛁ %avail"
-}
-
-disk "/home" {
         format = "⛁ %avail"
 }
 
