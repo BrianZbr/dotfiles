@@ -1,6 +1,8 @@
 (menu-bar-showhide-tool-bar-menu-customize-disable)
 (menu-bar-mode -1)
 
+(global-set-key (kbd "C-c a") 'org-agenda)
+
 ; keep folder clean
 (setq auto-save-file-name-transforms
   `((".*" "~/.emacs-saves/" t)))
