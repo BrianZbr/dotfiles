@@ -14,6 +14,10 @@
  ;; If there is more than one, they won't work right.
  '(inhibit-startup-screen t)
  '(org-agenda-files '("~/my/organice/brain.org"))
+ '(org-capture-templates
+   '(("t" "Inbox TODO" entry
+      (file+headline "~/my/organice/brain.org" "Inbox 📥")
+      "TODO")))
  '(package-selected-packages '(magit)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
