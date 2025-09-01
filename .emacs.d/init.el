@@ -23,6 +23,7 @@
      ("j" "Journal entry" entry
       (file+olp+datetree "~/my/organice/journal.org")
       "* %?" :jump-to-captured t)))
+ '(org-refile-targets '((org-agenda-files :maxlevel . 3)))
  '(package-selected-packages '(magit)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
